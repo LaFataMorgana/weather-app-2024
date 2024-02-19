@@ -1,0 +1,114 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/176/original/Disen%CC%83o_sin_ti%CC%81tulo_%2812%29.png?1707796403");
+
+  color: #142d4c;
+}
+section {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+section h1 {
+  font-size: 30px;
+  font-family: "Staatliches", sans-serif;
+}
+section p {
+  color: #385170;
+  margin-bottom: 0;
+}
+
+strong {
+  color: #119173;
+}
+hr.top-hr {
+  opacity: 10%;
+  position: relative;
+  top: 10px;
+}
+
+hr.bottom-hr {
+  bottom: 40px;
+  margin: 0 auto;
+  opacity: 10%;
+  position: relative;
+}
+div.container {
+  background-color: #f3f1e4;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(102 103 108);
+  font-family: Red Hat Display;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px 50px;
+}
+
+div.container form {
+  display: block;
+  font-family: Staatliches;
+  max-width: 100%;
+  padding: 10px 10px;
+}
+
+div.current-temp {
+  bottom: 130px;
+  display: flex;
+  justify-content: end;
+  color: #142d4c;
+  font-family: Staatliches, sans-serif;
+  font-size: 90px;
+  font-weight: 800;
+  left: 30px;
+  position: relative;
+  padding: 10px 20px;
+}
+span.celsius {
+  top: 15px;
+  font-size: 30px;
+  left: 5px;
+  position: relative;
+}
+span.current-temp-symbol {
+  font-size: 60px;
+  top: 10px;
+  left: 5px;
+  position: relative;
+}
+form input {
+  font-family: Red Hat Display;
+  font-size: 15px;
+  padding: 12px 100px 12px 10px;
+  position: relative;
+  width: fit-content;
+}
+
+form input.search-input {
+  background: #f9e9ef;
+  border: 1px solid #142d4c;
+  border-radius: 4px;
+  padding: 10px 20px;
+  width: 80%;
+}
+form input.search-button {
+  border: 1px solid #142d4c;
+  border-radius: 4px;
+  color: #142d4c;
+  font-size: 17px;
+  left: 50px;
+  margin: 0 0 0 5px;
+  padding: 10px 20px;
+  transition: all 150ms ease-in-out;
+}
+.search-button:hover {
+  background: #efdc0a;
+  color: #385170;
+  cursor: pointer;
+}
+
+footer.footer-info {
+  bottom: 10px;
+  font-family: Red Hat Mono;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+}
